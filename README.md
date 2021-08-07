@@ -1,6 +1,6 @@
 # Calls Music Plus
 
-### ![MusicsNexa_bot](https://telegra.ph/file/a4b7d13da17c3cc828ab9.jpg)
+### ![MusicsNexa_bot](https://telegra.ph/file/3330043776a2146b5e2dd.jpg)
 
 
 **A [CallsMusic](https://github.com/callsmusic/callsmusic) Based Telegram Bot and Userbot To Play Music in Your Telegram Groups With Some Cool Extra Features!**
@@ -38,10 +38,10 @@ Before You Deploy make sure you Starred & Forked **[This Repo!](https://github.c
 ## The Easy Way ⚡️
 
 ### With Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Itz-fork/Callsmusic-Plus)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/OfficialBawwa/BawsFMTest_Bot)
 
 ### With Zeet
-<a href="https://zeet.co/new/template/itz-fork/yeah-my-man"><img src="https://user-images.githubusercontent.com/77770753/119371372-fe917900-bcd3-11eb-8db5-f5e8063cdd1c.jpg" width="94" height="28"></a>
+<a href="https://zeet.co/new/template/OfficialBawwa/BawsFMTest_Bot"><img src="https://user-images.githubusercontent.com/77770753/119371372-fe917900-bcd3-11eb-8db5-f5e8063cdd1c.jpg" width="94" height="28"></a>
 
 
 #### Get Pyrogram String Session
@@ -50,14 +50,14 @@ Before You Deploy make sure you Starred & Forked **[This Repo!](https://github.c
 
 ## Support!
 Facing Problems While Deploying or Using? **[Read How To Deploy](https://itz-fork.gitbook.io/callsmusic-plus/deploying-the-bot)**
-or Ask Me In **[Nexa Bots Support Group](https://t.me/Nexa_bots)**
+or Ask Me In **[HARP Support Group](https://t.me/HARP_Chat)**
 
 
 # More Info
 Read The **[Official Docs](https://itz-fork.gitbook.io/callsmusic-plus/)** For the Guides on How to Deploy and Getting Config Values.
 
 <p align="center">
-    <a href="https://itz-fork.gitbook.io/callsmusic-plus/"><img src="https://img.shields.io/badge/Docs-FAFAFA?style=for-the-badge&logo=gitbook&logoColor=black"></a> | <a href="https://github.com/Itz-fork/Callsmusic-Plus"><img src="https://img.shields.io/badge/GitHub-030202?style=for-the-badge&logo=github&logoColor=white"></a>
+    <a href="https://itz-fork.gitbook.io/callsmusic-plus/"><img src="https://img.shields.io/badge/Docs-FAFAFA?style=for-the-badge&logo=gitbook&logoColor=black"></a> | <a href="https://github.com/OfficialBawwa/BawsFMTest_Bot"><img src="https://img.shields.io/badge/GitHub-030202?style=for-the-badge&logo=github&logoColor=white"></a>
 </p>
 
 ## Credits
@@ -70,6 +70,7 @@ Read The **[Official Docs](https://itz-fork.gitbook.io/callsmusic-plus/)** For t
 - **TheHamkerCat**
 - **Abirhasan2005**
 - **DevsExpo**
+- **Nexa Bots**
 - **N A C CREATIVE**: For Voice Chat Link Command!
 
 
