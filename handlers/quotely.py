@@ -38,10 +38,10 @@ def isArgInt(message: Message) -> bool:
 @capture_err
 async def quotly_func(client, message: Message):
     if not message.reply_to_message:
-        return await message.reply_text("Reply To a Message To Quote It 😆!")
+        return await message.reply_text("Reply To a Message To Quote It!")
     if not message.reply_to_message.text:
         return await message.reply_text(
-            "Replied Message hasn't any text! Please Reply To a Text Message 🥺!"
+            "Replied Message hasn't any text! Please Reply To a Text Message!"
         )
     m = await message.reply_text("`Quoting Messages...`")
     if len(message.command) < 2:
@@ -77,7 +77,7 @@ async def quotly_func(client, message: Message):
             messages = [reply_message]
     else:
         await m.edit(
-            "Incorrect argument; Please hit on **/help** and Select 'Quotely' Module in Help Section 😁!"
+            "Incorrect argument; Please hit on **/help** and Select 'Quotely' Module in Help Section!"
         )
         return
     try:

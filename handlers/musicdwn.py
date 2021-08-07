@@ -149,7 +149,7 @@ def song(client, message):
 
     except Exception as e:
         m.edit(
-            "Sorry To Say but I can't find anything ❌!\n\nTry Another Keyword! Btw you spelled it properly 🤔?"
+            "Sorry To Say but I can't find anything!\n\nTry Another Keyword!"
         )
         print(str(e))
         return
@@ -345,7 +345,7 @@ async def ytmusic(client, message: Message):
 
             if duration > 999:
                 await pablo.edit(
-                    f"❌ Videos longer than 999 minute(s) aren't allowed, the provided video is {duration} minute(s)"
+                    f"Videos longer than 999 minute(s) aren't allowed, the provided video is {duration} minute(s)"
                 )
                 is_downloading = False
                 return
@@ -359,7 +359,7 @@ async def ytmusic(client, message: Message):
     c_time = time.time()
     file_stark = f"{ytdl_data['id']}.mp4"
     YTVID_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton("📺 Watch On YouTube 📺", url=f"{mo}")]])
-    capy = f"**🎧️ Music Video Name:** `{thum}` \n\n**👨‍💻️ Your Keyword:** `{urlissed}` \n**😉️ YouTube Channel:** `{thums}` \n**🔗️ Video Link :** `{mo}`"
+    capy = f"**🎧️ Music Video Name:** `{thum}` \n\n**👨‍💻️ Your Keyword:** `{urlissed}` \n**YouTube Channel:** `{thums}` \n**🔗️ Video Link :** `{mo}`"
     await client.send_video(
         message.chat.id,
         video=open(file_stark, "rb"),

@@ -54,12 +54,12 @@ PLAYMSG_BUTTONS = InlineKeyboardMarkup(
 async def play(_, message: Message):
     audio = (message.reply_to_message.audio or message.reply_to_message.voice) if message.reply_to_message else None
 
-    response = await message.reply_text("**Processing Your Song 😇...**")
+    response = await message.reply_text("**Processing Your Song...**")
 
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"Bruh! Videos longer than `{DURATION_LIMIT}` minute(s) aren’t allowed, the provided audio is {round(audio.duration / 60)} minute(s) 😒"
+                f"Bruh! Videos longer than `{DURATION_LIMIT}` minute(s) aren’t allowed, the provided audio is {round(audio.duration / 60)} minute(s)"
             )
 
         file_name = audio.file_unique_id + "." + (
@@ -125,7 +125,7 @@ async def play(_, message: Message):
 async def nplay(_, message: Message):
     global que
     
-    lel = await message.reply_text("**Processing Your Song 😇...**")
+    lel = await message.reply_text("**Processing Your Song...**")
     user_id = message.from_user.id
     user_name = message.from_user.first_name
 
@@ -159,7 +159,7 @@ async def nplay(_, message: Message):
             dur += (int(dur_arr[i]) * secmul)
             secmul *= 60
         if (dur / 60) > DURATION_LIMIT:
-             await lel.edit(f"Bruh! Videos longer than `{DURATION_LIMIT}` minute(s) aren’t allowed, the provided audio is {round(audio.duration / 60)} minute(s) 😒")
+             await lel.edit(f"Bruh! Videos longer than `{DURATION_LIMIT}` minute(s) aren’t allowed, the provided audio is {round(audio.duration / 60)} minute(s)")
              return
     except:
         pass    

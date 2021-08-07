@@ -31,7 +31,7 @@ async def delcmd(_, message: Message):
 
 
 @Client.on_message(filters.command(["reload", f"reload@{BOT_USERNAME}"]))
-@authorized_users_only # Fuk Off Everyone! Admin Only Command!
+@authorized_users_only # Admin Only Command!
 async def update_admin(client, message):
     global fuck
     admins = await client.get_chat_members(message.chat.id, filter="administrators")
@@ -237,24 +237,24 @@ async def cbunmute(_, query: CallbackQuery):
 @authorized_users_only
 async def delcmdc(_, message: Message):
     if len(message.command) != 2:
-        await message.reply_text("Lol! This isn't the way to use this command 😂! Please read **/help** ☺️")
+        await message.reply_text("Lol! This isn't the way to use this command! Please read **/help** ☺️")
         return
     status = message.text.split(None, 1)[1].strip()
     status = status.lower()
     chat_id = message.chat.id
     if status == "on":
         if await delcmd_is_on(message.chat.id):
-            await message.reply_text("Eh! You are already enabled This Service 😉")
+            await message.reply_text("Eh! You are already enabled This Service")
             return
         else:
             await delcmd_on(chat_id)
             await message.reply_text(
-                "Successfully Enabled Delete Command Feature For This Chat 😇"
+                "Successfully Enabled Delete Command Feature For This Chat"
             )
     elif status == "off":
         await delcmd_off(chat_id)
-        await message.reply_text("Successfully Disabled Delete Command Feature For This Chat 😌")
+        await message.reply_text("Successfully Disabled Delete Command Feature For This Chat")
     else:
         await message.reply_text(
-            "Can't Understand What you're talking about! Maybe Read **/help** 🤔"
+            "Can't Understand What you're talking about! Maybe Read **/help**"
         )

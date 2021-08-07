@@ -16,7 +16,7 @@ def is_that_owner(func):
     
     return ownermelol
 
-OWNER_TEXT = "**Hello My Master 😇!** Please select option from below buttons \n\n ~ @NexaBotsUpdates"
+OWNER_TEXT = "**Hello My Master 😇!** Please select option from below buttons \n\n ~ @Bawwaofficial"
 
 OWNER_HELPCB=InlineKeyboardMarkup(
             [
@@ -88,7 +88,7 @@ async def cbbans(_, query: CallbackQuery):
 
  - This will ban user with \nUser ID: `1234567891` \nFor: `2 Days` \nReason will be: `Test`
 
-Made with ❤️ by **@NexaBotsUpdates**""",
+Made with ❤️ by **@Bawwaofficial**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -118,7 +118,7 @@ async def cbunbans(_, query: CallbackQuery):
 
  - This will unban user with User ID: `1234567891`
 
-Made with ❤️ by **@NexaBotsUpdates**""",
+Made with ❤️ by **@Bawwaofficial**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -143,7 +143,7 @@ async def cbuserstats(_, query: CallbackQuery):
     - Send `/stats` command in Bot PM
 
 
-Made with ❤️ by **@NexaBotsUpdates**""",
+Made with ❤️ by **@Bawwaofficial**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -175,7 +175,7 @@ async def cbbroadcast(_, query: CallbackQuery):
      - Reply to a Text message with `/chatcast` command to Broadcast it using Streamer Account as a copy of that Message.
 
 
-Made with ❤️ by **@NexaBotsUpdates**""",
+Made with ❤️ by **@Bawwaofficial**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -214,15 +214,15 @@ async def cbherokufuncs(_, query: CallbackQuery):
 
 **Examples:**
      1. Set New Config Vars,
-      - `/setvar THUMB_URL https://telegra.ph/file/1abf950297d8e9810dc81.jpg`
-       This will Update `THUMB_URL` variable with `https://telegra.ph/file/1abf950297d8e9810dc81.jpg` as Value
+      - `/setvar THUMB_URL https://telegra.ph/file/3330043776a2146b5e2dd.jpg`
+       This will Update `THUMB_URL` variable with `https://telegra.ph/file/3330043776a2146b5e2dd.jpg` as Value
      
      2. Delete Config Vars,
       - `/delvar THUMB_URL`
        This will delete variable named  `THUMB_URL`
 
 
-Made with ❤️ by **@NexaBotsUpdates**""",
+Made with ❤️ by **@Bawwaofficial**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [

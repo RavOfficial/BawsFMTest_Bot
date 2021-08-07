@@ -27,13 +27,13 @@ async def start(_, message: Message):
         parse_mode="markdown"
     )
     await message.reply_text(
-        f"""<b>Hi {message.from_user.mention} 😉️!</b>
+        f"""<b>Hi {message.from_user.mention}!</b>
 
-I'm The Nexa Music Bot! A Powerful Bot to Play Music in Your Group Voice Chat 😇!
+I'm The Nexa Music Bot! A Powerful Bot to Play Music in Your Group Voice Chat!
 
-Also I have more features! Please hit on **/help** to see them 😘!
+Also I have more features! Please hit on **/help** to see them!
 
-Made with ❤️ **@{UPDATES_CHANNEL}**""",
+Made with ❤️ **@HARP_Tech**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -48,15 +48,10 @@ Made with ❤️ **@{UPDATES_CHANNEL}**""",
                 ],
                 [
                     InlineKeyboardButton(
-                        "📦 Source Code 📦", url="https://github.com/Itz-fork/Callsmusic-Plus"
-                    )
-                ],
-                [
-                    InlineKeyboardButton(
-                        "🔰️ My Update Channel 🔰️", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "🔰️ Updates Channel 🔰️", url=f"https://t.me/HARP_Tech"
                     ),
                     InlineKeyboardButton(
-                        "⚜️ Support Group ⚜️", url="https://t.me/Nexa_bots"
+                        "⚜️ Support Group ⚜️", url="https://t.me/HARP_Chat"
                     )
                 ]
             ]
@@ -133,7 +128,7 @@ async def credits2(_, message: Message):
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name} 😉️!</b>
 
-__Note!__ ⚠️: This Project Is <b>Not Fully Owned By Me</b> !
+__Note!__ ⚠️: This Project Is <b>Not Fully Owned By Us</b> !
 
 Credits To,
 
@@ -144,18 +139,19 @@ Credits To,
 <b>DevsExpo</b>
 <b>TeamDaisyX</b>
 <b>N A C</b>
+<b>Nexa Bots</b>
 
-Made with ❤️ by **@{UPDATES_CHANNEL}**""",
+Made with ❤️ by **@HARP_Tech**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🔰️ My Update Channel 🔰️", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "🔰️ My Update Channel 🔰️", url=f"https://t.me/HARP_Tech"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "⚜️ Support Group ⚜️", url="https://t.me/Nexa_bots"
+                        "⚜️ Support Group ⚜️", url="https://t.me/HARP_Chat"
                     )
                 ]
             ]
@@ -197,10 +193,10 @@ Enjoy 😌️❤️!""",
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔰️ Update Channel 🔰️", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "🔰️ Update Channel 🔰️", url=f"https://t.me/HARP_Tech"
                     ),
                     InlineKeyboardButton(
-                        "⚜️ Support Group ⚜️", url="https://t.me/Nexa_bots"
+                        "⚜️ Support Group ⚜️", url="https://t.me/HARP_Chat"
                     )
                 ]
             ]
